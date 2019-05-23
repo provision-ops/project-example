@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5cedafae9f588778d519bca7e2d5b377",
+    "content-hash": "0312692d3a2c7502af9bbef6b028bdae",
     "packages": [
         {
             "name": "doctrine/instantiator",
@@ -921,11 +921,17 @@
         },
         {
             "name": "provision-ops/yaml-tests",
-            "version": "dev-master",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/provision-ops/yaml-tests.git",
+                "reference": "ceb8f576c0a20635a3bccb653864f0b57352b6ed"
+            },
             "dist": {
-                "type": "path",
-                "url": "../yaml-tests",
-                "reference": "466044f6f7cf872501e512dc24071393e642eee2"
+                "type": "zip",
+                "url": "https://api.github.com/repos/provision-ops/yaml-tests/zipball/ceb8f576c0a20635a3bccb653864f0b57352b6ed",
+                "reference": "ceb8f576c0a20635a3bccb653864f0b57352b6ed",
+                "shasum": ""
             },
             "require": {
                 "composer-plugin-api": "^1.1",
@@ -946,6 +952,7 @@
                     "ProvisionOps\\YamlTests\\": "src/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -955,7 +962,8 @@
                     "email": "jon@thinkdrop.net"
                 }
             ],
-            "description": "Plugin to run commands from a YML file and pass to GitHub commit status API."
+            "description": "Plugin to run commands from a YML file and pass to GitHub commit status API.",
+            "time": "2019-05-23T17:40:28+00:00"
         },
         {
             "name": "sebastian/code-unit-reverse-lookup",
