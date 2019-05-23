@@ -1,0 +1,14 @@
+{
+  "name": "provision-ops/project-example",
+  "require": {
+    "provision-ops/yaml-tests": "*"
+  },
+  "repositories": [
+    {
+      "type": "path",
+      "url": "../yaml-tests"
+    }
+  ],
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}

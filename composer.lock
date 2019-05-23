@@ -1,0 +1,49 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "0c516b18dc677b492095cd822a9b90e7",
+    "packages": [
+        {
+            "name": "provision-ops/yaml-tests",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "../yaml-tests",
+                "reference": "5db75801550c5957a3219425a31f9755c357ec34"
+            },
+            "require": {
+                "composer-plugin-api": "^1.1"
+            },
+            "require-dev": {
+                "composer/composer": "^1.9@dev"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "ProvisionOps\\YamlTests\\Plugin"
+            },
+            "autoload": {
+                "psr-4": {
+                    "ProvisionOps\\YamlTests\\": "src/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Jon Pugh",
+                    "email": "jon@thinkdrop.net"
+                }
+            ],
+            "description": "Plugin to run commands from a YML file and pass to GitHub commit status API."
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": true,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
