@@ -1,4 +1,4 @@
-tests:
-  yaml-tests/phpunit: phpunit
-  yaml-tests/composer-install:
-    command: "@composer install"
+yaml-tests/phpunit: phpunit --version
+yaml-tests/composer-diagnose: composer diagnose --ansi
+yaml-tests/composer-install:
+  command: "composer install --ansi"

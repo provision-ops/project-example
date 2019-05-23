@@ -2,7 +2,8 @@
   "name": "provision-ops/project-example",
   "require": {
     "provision-ops/yaml-tests": "*",
-    "phpunit/phpunit": "^8.1"
+    "phpunit/phpunit": "^8.1",
+    "squizlabs/php_codesniffer": "^3.4"
   },
   "repositories": [
     {
