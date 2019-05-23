@@ -1,7 +1,8 @@
 {
   "name": "provision-ops/project-example",
   "require": {
-    "provision-ops/yaml-tests": "*"
+    "provision-ops/yaml-tests": "*",
+    "phpunit/phpunit": "^8.1"
   },
   "repositories": [
     {
@@ -9,6 +10,9 @@
       "url": "../yaml-tests"
     }
   ],
+  "config": {
+    "bin-dir": "bin"
+  },
   "minimum-stability": "dev",
   "prefer-stable": true
 }
